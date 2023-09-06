@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63500B952AA8DA0E0005B22E /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500B8C2AA8DA0E0005B22E /* A.wav */; };
+		63500B962AA8DA0E0005B22E /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500B8D2AA8DA0E0005B22E /* C.wav */; };
+		63500B972AA8DA0E0005B22E /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500B8E2AA8DA0E0005B22E /* B.wav */; };
+		63500B982AA8DA0E0005B22E /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500B8F2AA8DA0E0005B22E /* F.wav */; };
+		63500B9A2AA8DA0E0005B22E /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500B912AA8DA0E0005B22E /* E.wav */; };
+		63500B9B2AA8DA0E0005B22E /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500B922AA8DA0E0005B22E /* D.wav */; };
+		63500BA12AA8DE610005B22E /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63500BA02AA8DE610005B22E /* G.wav */; };
 		63832C7A2AA8673A0012D6C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63832C792AA8673A0012D6C9 /* AppDelegate.swift */; };
 		63832C7C2AA8673A0012D6C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63832C7B2AA8673A0012D6C9 /* SceneDelegate.swift */; };
 		63832C7E2AA8673A0012D6C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63832C7D2AA8673A0012D6C9 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63500B8C2AA8DA0E0005B22E /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		63500B8D2AA8DA0E0005B22E /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		63500B8E2AA8DA0E0005B22E /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		63500B8F2AA8DA0E0005B22E /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		63500B912AA8DA0E0005B22E /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		63500B922AA8DA0E0005B22E /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		63500BA02AA8DE610005B22E /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		63832C762AA8673A0012D6C9 /* xylophone app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xylophone app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63832C792AA8673A0012D6C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63832C7B2AA8673A0012D6C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63500B892AA8DA0E0005B22E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				63500BA02AA8DE610005B22E /* G.wav */,
+				63500B8C2AA8DA0E0005B22E /* A.wav */,
+				63500B8D2AA8DA0E0005B22E /* C.wav */,
+				63500B8E2AA8DA0E0005B22E /* B.wav */,
+				63500B8F2AA8DA0E0005B22E /* F.wav */,
+				63500B912AA8DA0E0005B22E /* E.wav */,
+				63500B922AA8DA0E0005B22E /* D.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		63832C6D2AA8673A0012D6C9 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +91,7 @@
 				63832C822AA8673C0012D6C9 /* Assets.xcassets */,
 				63832C842AA8673C0012D6C9 /* LaunchScreen.storyboard */,
 				63832C872AA8673C0012D6C9 /* Info.plist */,
+				63500B892AA8DA0E0005B22E /* Sounds */,
 			);
 			path = "xylophone app";
 			sourceTree = "<group>";
@@ -125,7 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63500B9B2AA8DA0E0005B22E /* D.wav in Resources */,
+				63500B952AA8DA0E0005B22E /* A.wav in Resources */,
+				63500B982AA8DA0E0005B22E /* F.wav in Resources */,
 				63832C862AA8673C0012D6C9 /* LaunchScreen.storyboard in Resources */,
+				63500B9A2AA8DA0E0005B22E /* E.wav in Resources */,
+				63500B962AA8DA0E0005B22E /* C.wav in Resources */,
+				63500BA12AA8DE610005B22E /* G.wav in Resources */,
+				63500B972AA8DA0E0005B22E /* B.wav in Resources */,
 				63832C832AA8673C0012D6C9 /* Assets.xcassets in Resources */,
 				63832C812AA8673A0012D6C9 /* Main.storyboard in Resources */,
 			);
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +331,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +360,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
